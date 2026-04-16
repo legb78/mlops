@@ -46,6 +46,8 @@ artifact = {
     "target_names": list(data.target_names),
 }
 
+
+
 with open("artifacts/model.pkl", "wb") as f:
     pickle.dump(artifact, f)
 
